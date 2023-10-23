@@ -228,9 +228,19 @@ body {
 }
 
 @media only screen and (max-width: 520px) {
-  .sign-up {
+  .sign-up,
+  .successful {
     width: 40rem;
     max-width: 90%;
+  }
+
+  .successful {
+    padding: 0;
+    gap: 3rem;
+  }
+
+  .successful-statement {
+    padding-bottom: 4rem;
   }
 
   .sign-up__head {
@@ -254,5 +264,9 @@ body {
   .button {
     padding: 2rem;
     font-size: 2rem;
+  }
+
+  .btn {
+    font-size: 1.5rem;
   }
 }
