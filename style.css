@@ -176,11 +176,13 @@ body {
   }
   .sign-up {
     /* width: 70rem; */
-    width: 100%;
+    width: 90rem;
+    max-width: 90%;
     border-radius: none;
   }
   .sign-ups {
     grid-template-columns: 1fr;
+    padding: 0;
   }
 
   .sign-up__box {
@@ -221,12 +223,21 @@ body {
 }
 
 @media only screen and (max-width: 520px) {
+  .sign-up {
+    width: 40rem;
+    max-width: 90%;
+  }
+
+  .sign-up__head {
+    font-size: 4rem;
+  }
+
   .sign-up__paragraph {
-    font-size: 3rem;
+    font-size: 2.5rem;
   }
 
   .sign-up ul li {
-    font-size: 2.5rem;
+    font-size: 2rem;
   }
 
   .sign-up form label {
@@ -236,7 +247,7 @@ body {
   .sign-up form input,
   .btn,
   .button {
-    padding: 3rem;
-    font-size: 2.5rem;
+    padding: 2rem;
+    font-size: 2rem;
   }
 }
